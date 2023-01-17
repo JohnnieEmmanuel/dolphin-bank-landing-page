@@ -10423,7 +10423,6 @@ nav ul li a:hover {
   z-index: 0;
   display: grid;
   align-items: center;
-  padding: 3em 0;
   background: #614da7; }
 
 @media (max-width: 1280px) {
@@ -10440,13 +10439,18 @@ nav ul li a:hover {
   .w3l-main-slider .owl-nav {
     display: none; }
   .w3l-main-slider .banner-info {
-    margin-top: 100px;
+    margin-top: 70px;
     margin-bottom: 60px; } }
 
 @media (max-width: 768px) {
   .w3l-main-slider .banner-info-bg h5 {
     font-size: 45px;
-    line-height: 50px; } }
+    line-height: 50px; }
+  
+.w3l-main-slider .banner-view {
+
+    padding: 3em 0;}
+  }
 
 @media (max-width: 736px) {
   .w3l-main-slider .banner-info-bg h5 {
@@ -10467,6 +10471,11 @@ nav ul li a:hover {
     font-size: 34px;
     line-height: 40px; } }
 
+
+    @media (max-width: 415px) {
+      .w3l-main-slider .banner-info-bg h5 {
+        font-size: 34px;
+        line-height: 40px; } }
 /*-- homeblock1 --*/
 .home-services {
   margin-top: -50px;
